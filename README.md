@@ -2,8 +2,7 @@
 
 **ImageTidy** is a high-performance image organization tool built with Flutter for Desktop. It is designed to help users quickly review, categorize, and clean up large collections of images with ease.
 
-![App Screenshot](https://via.placeholder.com/800x450?text=ImageTidy+Screenshot) 
-> *Screenshots to be added*
+
 
 ---
 
