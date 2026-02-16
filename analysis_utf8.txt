@@ -1,0 +1,22 @@
+﻿Analyzing imageTidy...                                          
+
+  error - A value of type 'String' can't be assigned to a variable of type 'Directory?' - lib\src\providers\image_provider.dart:63:20 - invalid_assignment
+  error - The argument type 'String' can't be assigned to the parameter type 'Directory'.  - lib\src\providers\image_provider.dart:69:56 - argument_type_not_assignable
+  error - The argument type 'String' can't be assigned to the parameter type 'Directory'.  - lib\src\providers\image_provider.dart:70:55 - argument_type_not_assignable
+   info - Use interpolation to compose strings and values - lib\src\services\file_service.dart:22:51 - prefer_interpolation_to_compose_strings
+   info - Use interpolation to compose strings and values - lib\src\services\file_service.dart:23:50 - prefer_interpolation_to_compose_strings
+  error - The method 'debugPrint' isn't defined for the type 'FileService' - lib\src\services\file_service.dart:42:7 - undefined_method
+  error - The method 'debugPrint' isn't defined for the type 'FileService' - lib\src\services\file_service.dart:82:9 - undefined_method
+  error - The method 'debugPrint' isn't defined for the type 'FileService' - lib\src\services\file_service.dart:87:7 - undefined_method
+   info - 'RawKeyEvent' is deprecated and shouldn't be used. Use KeyEvent instead. This feature was deprecated after v3.18.0-2.0.pre - lib\src\ui\screens\viewer_screen.dart:80:24 - deprecated_member_use
+   info - 'RawKeyDownEvent' is deprecated and shouldn't be used. Use KeyDownEvent instead. This feature was deprecated after v3.18.0-2.0.pre - lib\src\ui\screens\viewer_screen.dart:81:18 - deprecated_member_use
+   info - 'isControlPressed' is deprecated and shouldn't be used. Use HardwareKeyboard.instance.isControlPressed instead. This feature was deprecated after v3.18.0-2.0.pre - lib\src\ui\screens\viewer_screen.dart:90:72 - deprecated_member_use
+   info - 'isMetaPressed' is deprecated and shouldn't be used. Use HardwareKeyboard.instance.isMetaPressed instead. This feature was deprecated after v3.18.0-2.0.pre - lib\src\ui\screens\viewer_screen.dart:90:98 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\src\ui\screens\viewer_screen.dart:121:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\src\ui\screens\viewer_screen.dart:151:36 - deprecated_member_use
+   info - 'scale' is deprecated and shouldn't be used. Use scaleByVector3, scaleByVector4, or scaleByDouble instead - lib\src\ui\screens\viewer_screen.dart:177:73 - deprecated_member_use
+   info - 'RawKeyboardListener' is deprecated and shouldn't be used. Use KeyboardListener instead. This feature was deprecated after v3.18.0-2.0.pre - lib\src\ui\screens\viewer_screen.dart:227:12 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\src\ui\screens\viewer_screen.dart:329:63 - deprecated_member_use
+   info - The private field _groupedImages could be 'final' - lib\src\ui\widgets\explorer_sidebar.dart:18:29 - prefer_final_fields
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\src\ui\widgets\explorer_sidebar.dart:188:67 - deprecated_member_use
+
