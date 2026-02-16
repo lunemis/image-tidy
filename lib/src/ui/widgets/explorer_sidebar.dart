@@ -159,11 +159,10 @@ class _ExplorerSidebarState extends State<ExplorerSidebar> {
                                     overflow: TextOverflow.ellipsis,
                                   ),
                                 ),
-                                if (isCurrentFolder)
-                                  Text(
-                                    "${folderImages.length}",
-                                    style: TextStyle(color: Colors.grey[500], fontSize: 10),
-                                  ),
+                                Text(
+                                  "${folderImages.length}",
+                                  style: TextStyle(color: Colors.grey[500], fontSize: 10),
+                                ),
                               ],
                             ),
                           ),

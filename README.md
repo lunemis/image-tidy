@@ -17,7 +17,7 @@
     - `Ctrl+Z`: Undo last action.
 - **🗑️ Trash Review Mode**:
     - Safely review deleted items before permanent deletion.
-    - `Restore` functionality.
+    - `Restore` functional
     - `Cleanup Empty Folders` to keep your directories clean.
 - **🌍 Internationalization (i18n)**: Supports **English** and **Korean (한국어)**.
 - **⚙️ Customizable Settings**:
@@ -33,7 +33,7 @@
 ### Build & Run
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/imageTidy.git
+git clone https://github.com/lunemis/image-tidy.git
 cd imageTidy
 
 # 2. Install dependencies

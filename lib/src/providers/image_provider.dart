@@ -118,6 +118,7 @@ class ImageProvider extends ChangeNotifier {
       } else if (_currentIndex >= _trashImages.length) {
         _currentIndex = _trashImages.length - 1;
       }
+      _trashImages = List.from(_trashImages);
       notifyListeners();
     } catch (e) {
       debugPrint("Error permanently deleting: $e");
@@ -163,6 +164,8 @@ class ImageProvider extends ChangeNotifier {
       } else if (_currentIndex >= _trashImages.length) {
         _currentIndex = _trashImages.length - 1;
       }
+      _normalImages = List.from(_normalImages);
+      _trashImages = List.from(_trashImages);
       notifyListeners();
     } catch (e) {
       debugPrint("Error restoring: $e");
@@ -260,6 +263,9 @@ class ImageProvider extends ChangeNotifier {
       debugPrint("Error moving to trash: $e");
     } finally {
       _isDeleting = false;
+      // Force list update for UI
+      _normalImages = List.from(_normalImages);
+      _trashImages = List.from(_trashImages);
     }
   }
 
@@ -290,6 +296,8 @@ class ImageProvider extends ChangeNotifier {
         }
       }
       
+      _normalImages = List.from(_normalImages);
+      _trashImages = List.from(_trashImages);
       notifyListeners();
     } catch (e) {
       debugPrint("Error restoring from trash: $e");

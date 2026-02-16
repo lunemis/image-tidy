@@ -11,7 +11,7 @@ class SettingsProvider extends ChangeNotifier {
   final Map<AppAction, LogicalKeyboardKey> _keyBindings = {
     AppAction.nextImage: LogicalKeyboardKey.arrowRight,
     AppAction.prevImage: LogicalKeyboardKey.arrowLeft,
-    AppAction.delete: LogicalKeyboardKey.delete,
+    AppAction.delete: LogicalKeyboardKey.arrowDown,
     AppAction.undo: LogicalKeyboardKey.keyZ,
     AppAction.restore: LogicalKeyboardKey.keyR,
   };
