@@ -52,3 +52,7 @@ app.*.map.json
 # Windows
 windows/flutter/ephemeral/
 windows/runner/resources/
+
+# Analysis output
+analysis_result.txt
+analysis_utf8.txt
